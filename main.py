@@ -106,7 +106,7 @@ class Fudan:
         else:
             print("◉登录失败，请检查账号信息")
             print(self.uid)
-            print(self.pwd)
+            print(self.psw)
             self.close()
 
     def logout(self):
